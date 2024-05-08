@@ -126,7 +126,8 @@ const generateRecommendationsWithGemini = async () => {
 };
 
 const generateRecommendationsWithOpenAI = async () => {
-  const openaiApiKey = "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";
+  // const openaiApiKey = "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";
+  const openaiApiKey = "replace-with-your-key";
   const location = await getLocationData();
   if (!location) return;
 

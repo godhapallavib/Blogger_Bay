@@ -111,7 +111,8 @@ const Blog = (props) => {
         {
           headers: {
             Authorization:
-              "Bearer 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",
+              //"Bearer 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",
+              "replace-with-your-key",
           },
         }
       );
